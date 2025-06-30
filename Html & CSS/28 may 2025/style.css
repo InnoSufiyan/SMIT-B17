@@ -1,0 +1,50 @@
+
+
+/* @font-face {
+    font-family: "roboto";
+    src: url(./Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: "roboto-italic";
+    src: url(./Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: "roboto-italic-bold";
+    src: url(./Roboto/static/Roboto-BoldItalic.ttf);
+} */
+h1 {
+    color: blue; 
+    /* background-color: rgb(16, 0, 95); */
+    /* opacity: 0.5; */
+    font-family: roboto;
+    font-size: medium;
+}
+
+
+h2 {
+    color: rgb(6, 241, 38);
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* background-color: rgba(0 ,0 ,0 , 0.5); */
+    /* background-color: rgb(251, 42, 0); */
+    font-size: 10px;
+    font-family: roboto-italic;
+}
+
+p {
+    /* color: #f3dc0a; */
+    /* background-color: #824772; */
+    color: rgba(245, 0, 0, 0.9);
+    font-family: roboto;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 50%;
+
+    font-weight: 400;
+}
+
+h4 {
+    /* color: #824772; */
+    color: hsla(145, 100%, 50%,);
+    font-size: small;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* background-color: hsla(0, 100%, 49%, 0.4); */
+}

@@ -1,0 +1,15 @@
+#box1 {
+    width: 50%;
+    height: 250px;
+    border: 2px solid black;
+   /* overflow: scroll ; */
+}
+
+#box1 > p {
+    border: 2px solid red;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    min-width:350px ;
+    max-width:450px ;
+}

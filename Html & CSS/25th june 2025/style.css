@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#imageBox {
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    /* opacity: 0.5; */
+}
+
+#box2 {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+
+/* #box {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+}
+
+#box p {
+    font-size: 30px;
+} */
+
+/* div p {
+    width: 100vw;
+    color: black;
+} */
+
+
+/* #pappa3 {
+    background-color: blue;
+    width: 500px;
+    height: 200px;
+}
+
+#pappa2 {
+    background-color: red;
+    width: 90%;
+    height: 90%;
+}
+
+#pappa1 {
+    background-color: green;
+    height: 90%;
+    width: 90%;
+} */
+
+input[id] {
+    background-color: black;
+}
+
+#nameInput:focus {
+    background-color: yellow;
+}
+
+#emailInput:focus {
+    background-color: red;
+}
+
+button:active {
+    background-color: purple;
+    color: white;
+}
+
+button:hover {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}

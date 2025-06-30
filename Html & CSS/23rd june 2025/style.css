@@ -1,0 +1,84 @@
+h1 {
+  font-family: "Sevillana", cursive;
+  font-size: 2em;
+  color: black;
+}
+
+h1 a {
+  color: black;
+  text-decoration-style: dotted;
+}
+
+h1 a:hover {
+    background-color: yellow;
+    color: green;
+}
+
+h3 {
+  font-family: "Caprasimo", serif;
+}
+
+h2 {
+  font-family: "Roboto Mono", monospace;
+}
+
+h2::first-letter {
+  background-color: blue;
+  color: white;
+}
+
+#headline {
+  font-style: italic;
+  text-transform: lowercase;
+  font-weight: bold;
+  color: green;
+  background-color: red;
+  border-radius: 10px;
+}
+
+#name {
+  text-transform: capitalize;
+  text-decoration: line-through;
+}
+
+#secondPara {
+  line-height: 20px;
+  word-spacing: 5px;
+  font-size: 10px;
+}
+
+#secondPara::first-line {
+  background-color: yellow;
+  color: green;
+  text-decoration: underline;
+  text-shadow: 5px 2px 2px purple;
+  line-height: 100px;
+}
+
+#firstPara {
+  text-align: right;
+  text-shadow: 5px 19px 2px rgba(100, 10, 205, 0.6);
+}
+
+#image {
+    background-image: url('https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iuGvy5noyNFQ/v0/-1x-1.webp');
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#image:hover {
+    background-image: url('https://img.freepik.com/free-photo/3d-render-cargo-delivery-truck_1048-5605.jpg?semt=ais_hybrid&w=740');
+}
+
+#bulb {
+    background-image: url('https://media.istockphoto.com/id/502789173/photo/light-bulb-concept.jpg?s=612x612&w=0&k=20&c=vJfSDuFJf_4UsQcUsdMNUfDkkNU6Bf9cTHF-n4-Zwvs=');
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#bulb:hover {
+    background-image: url('https://img.freepik.com/premium-vector/incandescent-light-bulb-black-background-glowing-lightbulb-realistic-vector-illustration_261737-778.jpg');
+}

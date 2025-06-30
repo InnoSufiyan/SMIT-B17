@@ -1,0 +1,62 @@
+h1 {
+    font-style: italic;
+    /* text-shadow: 1px 1px 0px #000000; */
+    text-shadow: 71px 0px 1px rgba(255, 0, 0, 0.2);
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+h3 {
+    text-decoration: dotted;
+}
+
+a {
+    color: green;
+    /* text-decoration: blink; */
+}
+
+a:visited {
+    color: yellow;
+} 
+
+a:hover {
+    color: aquamarine;
+}
+
+div {
+    border: 1px solid red;
+}
+
+p {
+    /* line-height: 50px; */
+    /* letter-spacing: 5px; */
+    /* word-spacing: 50px; */
+    text-align: justify;
+    text-indent: 30px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid green;
+}
+
+
+/* p:first-line {
+    font-size: 50px;
+    color: red;
+} */
+
+button:active {
+    color: blue;
+    background-color: green;
+}
+
+p[class~="para2"] {
+    color: blue;
+}
+
+p[id^=d] {
+    background-color: aquamarine;
+}

@@ -1,0 +1,32 @@
+* {
+    background-color: black;
+}
+
+#h-1,
+.para {
+    color: yellow;
+}
+
+.list > li > a {
+color: aqua;
+}
+
+
+.list  li {
+color: aqua;
+}
+
+h2 ~ p {
+    color: green ;
+}
+
+
+
+
+/* #h-1 {
+    color: green;
+} */
+
+/* .para {
+    color: blue;
+} */

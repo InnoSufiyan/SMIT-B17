@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#pappa {
+  height: 280px;
+  width: 230px;
+  background-image: url(./1_alpha.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  transform-origin: right;
+
+  transition: transform 3s;
+}
+
+#pappa:hover {
+  transform: rotate(90deg);
+}
+
+/* div {
+  height: 200px;
+  width: 200px;
+  transition: 3s;
+  transition-delay: 10s;
+  background-image: url("./1.jpg");
+  border: 2px solid black;
+  background-position: -80px -40px;
+}
+
+div:hover {
+  background-color: blue;
+  border-radius: 50%;
+} */
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  transition: 2s;
+  transition-timing-function: ease-in-out;
+}
+
+div:hover {
+  transform: translateX(1000px);
+}

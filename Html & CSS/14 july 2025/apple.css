@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbar {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 50px;
+  background-color: white;
+  padding: 10px 0;
+}
+
+#navbar li {
+  cursor: pointer;
+}
+
+#section1 {
+  height: 700px;
+  background-image: url("./assets/1.jpg");
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#content1 {
+  width: 300px;
+  height: 200px;
+  background-color: #007aff;
+  border-radius: 30px;
+  padding: 20px;
+}
+#content2 {
+  width: 300px;
+  background-color: #007aff;
+  border-radius: 30px;
+  padding: 20px;
+}
+#content3 {
+  width: 300px;
+  height: 200px;
+  background-color: #007aff;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+#content1 p {
+  font-size: 40px;
+  color: white;
+}
+#content2 p {
+  font-size: 28px;
+  color: white;
+}
+#content3 p {
+  font-size: 40px;
+  color: white;
+}
+
+#shopBtn {
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: #007aff;
+  background-color: transparent;
+  border: 1px solid #007aff !important;
+  font-size: 20px;
+}
+
+#shopBtn:hover {
+  background-color: #007aff;
+  color: white;
+  cursor: pointer;
+}
+
+#section2 {
+  margin-top: 20px;
+  height: 700px;
+  background-image: url("./assets/2.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-top: 100px;
+}
+
+#section2 #one {
+  font-size: 80px;
+}
+#section2 #two {
+  font-size: 40px;
+}
+
+#btn1 {
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: #007aff;
+  background-color: transparent;
+  border: 1px solid #007aff !important;
+  font-size: 20px;
+  background-color: #007aff;
+  color: white;
+  cursor: pointer;
+}
+
+#btn1:hover {
+   background-color: #004084; 
+}
+
+#btn2 {
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: #007aff;
+  background-color: transparent;
+  border: 1px solid #007aff !important;
+  font-size: 20px;
+}
+
+#btn2:hover {
+  background-color: #007aff;
+  color: white;
+  cursor: pointer;
+}

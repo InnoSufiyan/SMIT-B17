@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  height: 100px;
+  width: 200px;
+  background-color: black;
+  margin-bottom: 5px;
+  animation: box 2s infinite alternate;
+}
+
+#one {
+  animation-timing-function: ease;
+}
+#two {
+  animation-timing-function: ease-in;
+  background-color: red;
+}
+#three {
+  animation-timing-function: ease-out;
+  background-color: blue;
+}
+#four {
+  animation-timing-function: ease-in-out;
+}
+#five {
+  animation-timing-function: linear;
+}
+
+@keyframes box {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(1300px);
+  }
+}

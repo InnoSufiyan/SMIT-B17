@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-image: url("./fan.png");
+  margin: 0 auto;
+  animation: moveBox 3s linear infinite alternate;
+  background-size: contain;
+}
+
+@keyframes moveBox {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1440deg);
+  }
+}

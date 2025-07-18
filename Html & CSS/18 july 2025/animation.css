@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+#bg {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./bg.jpg");
+  background-size: cover;
+  animation: bgAnimation 5s linear infinite;
+}
+
+#car {
+  width: 300px;
+  height: 200px;
+  background-image: url("./car.png");
+  background-size: cover;
+  position: absolute;
+  bottom: 50px;
+  transform: scale(0.8) translateX(500px);
+  animation: carAnimation 2s 2s infinite alternate;
+}
+
+#bike {
+  width: 200px;
+  height: 200px;
+  background-image: url("./motobike.png");
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  transform: scale(0.8) translateX(300px);
+  animation: bikeAnimation 5s 5s ease-in;
+  transform-origin: left bottom;
+}
+
+#superman {
+  height: 70px;
+  width: 150px;
+  background-image: url("./superman-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: supermanAnimation 4s infinite;
+}
+
+@keyframes bgAnimation {
+  from {
+    background-position: left;
+  }
+
+  to {
+    background-position: right;
+  }
+}
+
+@keyframes carAnimation {
+  from {
+    transform: scale(0.8) translateX(500px);
+  }
+  to {
+    transform: scale(0.8) translateX(700px);
+  }
+}
+
+@keyframes bikeAnimation {
+  0% {
+    transform: scale(0.8) translateX(300px);
+  }
+  20% {
+    transform: scale(0.8) translateX(400px) rotate(-70deg);
+  }
+  100% {
+    transform: scale(0.8) translateX(2300px);
+  }
+}
+
+@keyframes supermanAnimation {
+  from {
+    transform: translateX(0px) scale(2);
+  }
+  to {
+    transform: translateX(2000px) scale(2);
+  }
+}

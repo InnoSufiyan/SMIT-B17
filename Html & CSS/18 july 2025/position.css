@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#pappa {
+  width: 400px;
+  height: 400px;
+  background-color: black;
+}
+
+#child {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+
+#chacha {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+}

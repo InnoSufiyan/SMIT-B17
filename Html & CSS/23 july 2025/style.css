@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#pappa {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 10px;
+}
+
+.bachay {
+  background-color: black;
+  border: 2px solid yellow;
+  color: white;
+  font-size: 50px;
+}
+
+#one {
+  grid-column: 1 / span 3;
+}
+
+#two {
+  grid-column: 4 / span 2;
+  grid-row: 1 / span 2;
+}
+
+#four {
+  grid-row: 2 / span 4;
+  grid-column: 1 / span 3;
+}
+
+#seven {
+  grid-column: 3 / span 2;
+}

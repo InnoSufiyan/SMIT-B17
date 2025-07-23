@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+#spinningWheelPappa {
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#spinningWheel {
+  height: 100%;
+  width: 100%;
+  background-image: url("./assets/wheel.png");
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: wheelAnimation 5s 1.5s ease-in-out;
+  transform-origin: center center;
+}
+
+#phuntru {
+  height: 60px;
+  width: 60px;
+  background-image: url(./assets/forPhuntru.png);
+  background-size: cover;
+  position: absolute;
+  right: 20px;
+  top: 60px;
+  transform: rotate(40deg);
+  z-index: 2;
+}
+
+#kutta {
+  width: 150px;
+  height: 150px;
+  background-image: url(./assets/dog.png);
+  background-size: cover;
+  transform: translate(-10px, 10px) scale(0.9);
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: kuttaAnimation 0.4s linear 1.5s;
+  transform-origin: bottom;
+  animation-fill-mode: forwards;
+}
+
+#bat {
+  height: 500px;
+  width: 80px;
+  background-image: url(./assets/bat.png);
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  background-repeat: no-repeat;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: batAnimation 2s;
+  transform-origin: bottom;
+  animation-fill-mode: forwards;
+}
+
+@keyframes batAnimation {
+  0% {
+    transform: translate(550px, 800px) rotate(120deg);
+  }
+
+  35% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  60% {
+    transform: translate(350px, -100px) rotate(70deg);
+  }
+  70% {
+    transform: translate(350px, -100px) rotate(70deg);
+  }
+  100% {
+    transform: translate(550px, 800px) rotate(0deg);
+  }
+}
+
+@keyframes kuttaAnimation {
+  0% {
+    transform: translate(-10px, 10px) scale(0.9);
+  }
+
+  100% {
+    transform: translate(-10px, 10px) scale(0);
+  }
+}
+
+@keyframes wheelAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(950deg);
+  }
+}

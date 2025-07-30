@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Queries</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap implemented -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+
+    <!-- <link
+      rel="stylesheet"
+      media="screen and (min-width: 480px) and (max-width: 900px)"
+      href="tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 480px)"
+      href="mobile.css"
+    /> -->
+  </head>
+  <body>
+    <div class="card" style="width: 18rem">
+      <img src="https://mir-s3-cdn-cf.behance.net/user/276/cd4a351063569.559783473e218.jpg" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card’s content.
+        </p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">An item</li>
+        <li class="list-group-item">A second item</li>
+        <li class="list-group-item">A third item</li>
+      </ul>
+      <div class="card-body">
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+      </div>
+    </div>
+
+    <!-- <button type="button" class="btn btn-primary position-relative buttonCSS">
+      Inbox
+      <span
+        class="position-absolute top-50 start-0 translate-middle badge rounded-pill bg-danger"
+      >
+        99+
+        <span class="visually-hidden">unread messages</span>
+      </span>
+    </button> -->
+
+    <!-- <button class="btn btn-warning">
+      Click Me
+    </button> -->
+
+    <!-- <div id="pappa">
+      <div class="bachay"></div>
+      <div class="bachay"></div>
+      <div class="bachay"></div>
+      <div class="bachay"></div>
+      <div class="bachay"></div>
+      <div class="bachay"></div>
+      <div class="bachay"></div>
+      <div class="bachay"></div>
+      <div class="bachay"></div>
+      <div class="bachay"></div>
+    </div> -->
+
+    <!-- <div id="liveAlertPlaceholder"></div>
+    <button type="button" class="btn btn-secondary" id="liveAlertBtn">
+      Show my Name
+    </button>
+
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            id="accordian1"
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            Mera Accordian
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>Mera pehla paragraph.</strong> Kuch bhi
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            id="accordian2"
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            Mera Accordian
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>Mera pehla paragraph.</strong> Kuch bhi
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            id="accordian3"
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            Mera Accordian
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>Mera pehla paragraph.</strong> Kuch bhi
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const alertPlaceholder = document.getElementById("liveAlertPlaceholder");
+      const appendAlert = (message, type) => {
+        const wrapper = document.createElement("div");
+        wrapper.innerHTML = [
+          `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+          `   <div>${message}</div>`,
+          '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+          "</div>",
+        ].join("");
+
+        alertPlaceholder.append(wrapper);
+      };
+
+      const alertTrigger = document.getElementById("liveAlertBtn");
+      if (alertTrigger) {
+        alertTrigger.addEventListener("click", () => {
+          appendAlert("My name is Sufiyan");
+        });
+      }
+    </script> -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

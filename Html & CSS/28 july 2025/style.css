@@ -1,0 +1,100 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #57564f;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #7a7a73;
+  padding: 10px 15px;
+  height: 48px;
+}
+
+.nav-btn,
+.login-btn,
+.signup-btn {
+  padding: 4px;
+  font-size: 14px;
+}
+
+.nav-auth-btn-div {
+  position: relative;
+}
+
+.nav-ham-menu {
+  position: absolute;
+  right: 0;
+  background-color: #f8f3ce;
+  box-shadow: 0 2px 6px rgba(122, 122, 115, 1);
+  padding: 6px 8px;
+  border-radius: 5px;
+}
+
+.nav-ham-menu div {
+    margin-bottom: 5px;
+}
+
+.nav-ham-btn {
+  height: 20px;
+  width: 20px;
+}
+
+.cards-div {
+  background-color: #dddad0;
+  padding: 20px;
+  min-height: calc(100vh - 48px);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #f8f3ce;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 8px;
+  height: 440px;
+  width: 350px;
+  border-radius: 8px;
+}
+
+.card .card-title {
+  font-size: 28px;
+}
+
+.card .card-price {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.card .card-desc {
+  font-size: 18px;
+}
+
+@media (max-width: 749px) {
+  .card {
+    height: 500px;
+    width: 450px;
+  }
+}
+
+@media (max-width: 550px) {
+  .nav-btn-div,
+  .login-btn,
+  .signup-btn {
+    display: none;
+  }
+}
+
+@media (min-width: 551px) {
+  .nav-ham-btn,
+  .nav-ham-menu {
+    display: none;
+  }
+}

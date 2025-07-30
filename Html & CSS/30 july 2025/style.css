@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.buttonCSS {
+  top: 100px !important;
+}
+
+#accordian1 {
+  background-color: blue !important;
+}
+#accordian2 {
+  background-color: red !important;
+}
+#accordian3 {
+  background-color: green !important;
+}
+
+
+
+
+#pappa {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 10px;
+}
+
+.bachay {
+  background-color: red;
+  border: 5px solid white;
+  height: 100px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  #pappa {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  #pappa {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #pappa {
+    grid-template-columns: auto;
+  }
+}

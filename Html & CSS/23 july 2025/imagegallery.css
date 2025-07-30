@@ -9,7 +9,7 @@
   width: 500px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr 3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto;
   gap: 5px;
 }
@@ -22,14 +22,13 @@
 }
 
 .bachay:hover {
-    transform: scale(1.1) rotate(5deg);
-    transition: 0.5s ease-in-out;
+  transform: scale(1.1) rotate(5deg);
+  transition: 0.5s ease-in-out;
 }
 
 .bachay img {
   width: 100%;
   height: 100%;
-
 }
 
 #one {
@@ -73,6 +72,6 @@
 }
 
 #nine {
-   grid-column: 6 / span 2; 
-   grid-row: 10 / span 4;
+  grid-column: 6 / span 2;
+  grid-row: 10 / span 4;
 }

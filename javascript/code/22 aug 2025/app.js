@@ -1,12 +1,12 @@
 var ammiDinner = prompt("Ammi aap khaaney main kya khaeyngi??");
 // chicken = 200, beef = 250, mutton = 350
-var wallet = 250;
+var wallet = 450;
 if (
   ammiDinner == "chicken biryani" ||
   ammiDinner == "beef biryani" ||
   ammiDinner == "mutton biryani"
 ) {
-  if (wallet >= 350) {
+  if (ammiDinner == "mutton biryani" && wallet >= 350) {
     console.log("Mutton Biryani");
   } else if (wallet < 350 && wallet >= 250) {
     console.log("beef biryani");
